@@ -1,0 +1,104 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ 
+ body {
+     font-size: 1.6rem;
+    /* font-size 1.6rem is now the same as 16px */
+    line-height: 1.6;
+ }
+header{
+    padding: 50px;
+    background-color: rgb(187, 110, 55);
+    text-align: center;
+
+} 
+main {
+
+}
+
+.image-div{
+    display: inline-block;
+
+}
+
+
+#image-1 {
+    position:absolute;
+    top: 50px;
+    right: 50px;
+    left: 20vw;
+}
+#image-2 {
+    position:absolute;
+    top: 50px;
+    right: 40px;
+    left: 10vw;
+}
+#image-3 {
+    position:absolute;
+    top: 50px;
+    right: 30px;
+    left: 10vw;
+}
+#image-4 {
+    position:absolute;
+    top: 10px;
+    right: 50px;
+    left: 20vw;
+}
+#image-5 {
+    position:absolute;
+    top: 40px;
+    right: 50px;
+    left: 20vw;
+}
+#image-6 {
+    position:absolute;
+    top: 60px;
+    right: 80px;
+    left: 20vw;
+}
+#image-7 {
+    position:absolute;
+    top: 770px;
+    right: 90px;
+    left: 60vw;
+}
+#image-8 {
+    position:absolute;
+    top: 50px;
+    right: 44px;
+    left: 100vw;
+}
+#image-9 {
+    position:absolute;
+    top: 200px;
+    right: 50px;
+    left: 20vw;
+}
