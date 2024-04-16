@@ -36,17 +36,12 @@ header{
     padding: 50px;
     background-color: rgb(187, 110, 55);
     text-align: center;
-
-} 
-main {
-
 }
 
 .image-div{
     display: inline-block;
 
 }
-
 
 #image-1 {
     position:absolute;
